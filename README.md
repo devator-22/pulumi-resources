@@ -1,0 +1,1 @@
+This repo contains pulumi template for AWS configurations. Each directory contains a template for different set ups
