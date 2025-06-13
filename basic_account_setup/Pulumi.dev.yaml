@@ -1,0 +1,14 @@
+config:
+  aws:region: us-east-1
+  pulumi-resources:region: us-east-1
+  pulumi-resources:environment: dev
+  pulumi-resources:vpc_cidr: 10.1.0.0/16
+  pulumi-resources:public_subnet_cidr: 10.1.1.0/24
+  pulumi-resources:private_subnet_cidr: 10.1.2.0/24
+  pulumi-resources:public_subnet_az: us-east-1a
+  pulumi-resources:private_subnet_az: us-east-1b
+  pulumi-resources:ami_id: ami-0e86e20dae9224db8
+  pulumi-resources:instance_type: t2.micro
+  pulumi-resources:instance_count: 2
+  pulumi-resources:backup_schedule: cron(0 5 * * ? *)
+  pulumi-resources:backup_retention_days: 30

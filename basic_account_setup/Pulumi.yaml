@@ -1,0 +1,3 @@
+name: pulumi-resources
+runtime: python
+description: A Pulumi project to provision AWS infrastructure including VPC, subnets, ALB, EC2 instances, and AWS Backup
